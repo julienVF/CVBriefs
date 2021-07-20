@@ -15,3 +15,9 @@ body{
     background-color: black;
 }
 *{color: white;}
+
+.Photo img{
+    height: 200px;
+
+    width: 200px;
+}
