@@ -1,20 +1,20 @@
 h1{
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 
 }
 h2{
-color:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
 
 }
 h3{
     text-align: center;
-    border:solid rgb(255, 255, 255);
+    border:solid rgb(0, 0, 0);
     color: red;
 }
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
-*{color: white;}
+*{color: rgb(0, 0, 0);}
 
 .Photo img{
     height: 200px;
