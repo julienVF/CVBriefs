@@ -1,0 +1,17 @@
+h1{
+color: rgb(255, 255, 255);
+
+}
+h2{
+color:black;
+
+}
+h3{
+    text-align: center;
+    border:solid rgb(255, 255, 255);
+    color: red;
+}
+body{
+    background-color: black;
+}
+*{color: white;}
