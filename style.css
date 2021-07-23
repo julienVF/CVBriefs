@@ -15,9 +15,9 @@ body{
 }
 
 .Photo img{
-    height: 200px;
+    height: 150px;
 
-    width: 200px;
+    width: 150px;
 }
 
 p{
@@ -40,10 +40,52 @@ li:hover{
     color: red;
      background-color: rgb(0, 0, 0);
 }
-#BLOC{
+
+#BLOC {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
 }
-#un{
-    
+@media (min-width:700px){
+
+    #un{
+       order: 3;
+       width:33%;
+    }
+    #deux{
+        order: 0;
+        padding-right: 10px;
+        width: 67%;
+    }
+    #trois{
+        order: 1;
+        padding-right: 10px;
+        width: 67%;
+    }
+    #quatre{
+        order: 2;
+        padding-right: 10px;
+        width: 67%;
+    }
+    #cinq{
+        order: 4;
+        transform: translateY(72px);
+        width:33%;
+    }
+    #six{
+        order: 5;
+        transform: translateY(76px);
+        width:33%;
+    }
+    #sept{
+        order: 6;
+        transform: translateY(76px);
+        width:33%;
+    }
+    #BLOC{
+        display:flex;
+        max-height: 900px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 1105px;
+    }
 }
